@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dog-api-react/static/css/main.02edec01.css",
+    "main.js": "/dog-api-react/static/js/main.7e61f081.js",
+    "index.html": "/dog-api-react/index.html",
+    "main.02edec01.css.map": "/dog-api-react/static/css/main.02edec01.css.map",
+    "main.7e61f081.js.map": "/dog-api-react/static/js/main.7e61f081.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02edec01.css",
+    "static/js/main.7e61f081.js"
+  ]
+}
