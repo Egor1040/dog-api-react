@@ -1,38 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #292626;
+    color: whitesmoke;
+}
+
 .App {
-  text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dog-app {
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dog-selection {
+    font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dog-app__checkbox,
+.dog-app__range {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.dog-app__get-btn {
+    font-weight: bold;
+    font-size: medium;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dog-single {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.dog-single__img {
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 440px;
+    height: 400px;
+}
+
+.dog-single__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dog-app__get-btn {
+    cursor: pointer;
+    padding: 5px;
 }
